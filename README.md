@@ -43,38 +43,11 @@ This system simulates a real-world college ERP where each user role is restricte
 
 ---
 
-## 🗂️ Project Structure
-
-```
-python-sqlalchemy-college-management/
-├── assets/                     # Project images and diagrams
-├── models/                     # All SQLAlchemy ORM models
-│   ├── student.py
-│   ├── staff.py
-│   ├── department.py
-│   ├── course.py
-│   ├── marks.py
-│   └── ...
-├── crud/                       # Role-specific operation scripts
-│   ├── student_crud.py
-│   ├── staff_crud.py
-│   ├── admin_crud.py
-│   └── common_utils.py
-├── database/                   # Database initialization and connection
-│   ├── db_setup.py
-│   └── seed_data.py
-├── main.py                     # Main launcher or interface (TBD)
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## ⚙️ Technologies Used
 
 - 🔹 **Python 3.9+**
 - 🔹 **SQLAlchemy ORM 1.4+**
-- 🔹 **SQLite** (for development; switchable to MySQL/PostgreSQL)
+- 🔹 **MySQL** 
 - 🔹 **Virtualenv** for isolation
 
 ---
