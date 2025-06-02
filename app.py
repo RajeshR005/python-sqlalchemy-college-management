@@ -1,22 +1,45 @@
-from crud import insert,view,update,delete,view_all
+from crud import stu_insert,stu_view,stu_update,staff_insert,staff_view
 
-while True:
-    print(f"Student Management System\n\nThe Operations you can perform:\n")
-    print("Menu:\n\n Insert = 1\n View = 2\n Update = 3\n Delete = 4\n View all = 5\n Exit = 6")
-    User_input=(int(input("Enter the Operation Number: ")))
-    if User_input==1:
-        insert()
-    elif User_input==2:
-        view()
-    elif User_input==3:
-        update()
-    elif User_input==4:
-        delete()
-    elif User_input==5:
-        view_all()
-    elif User_input==6:
-        exit()
+
+print("Welcome to Prince Group Of Institutions 🏫 \n")
+print("1. Student Login🎓\n2. Staff Login🪪\n3. Admin Login🔑")
+login=int(input("Enter your Login Number: "))
+if login==1:
+    while True:
+        print(f"Student Dashboard 📚\n\nThe Operations you can perform:\n")
+        print("Menu:\n\n Insert = 1\n View = 2\n Update = 3\n Exit = 4\n")
+        User_input=(int(input("Enter the Operation Number: ")))
+        if User_input==1:
+            stu_insert()
+        elif User_input==2:
+            stu_view()
+        elif User_input==3:
+            stu_update()
+        elif User_input==4:
+            exit()
+        else:
+            print("Invalid Choice")
+elif login==2:
+    while True:
+        print(f"Staff Dashboard 🪪\n\nThe Operations you can perform:\n")
+        print("Menu:\n\n Insert = 1\n View = 2\n Update = 3\n Exit = 4\n")
+        User_input=(int(input("Enter the Operation Number: ")))
+        if User_input==1:
+            staff_insert()
+        elif User_input==2:
+            staff_view()
+        elif User_input==3:
+            stu_update()
+        elif User_input==4:
+            exit()
+        else:
+            print("Invalid Choice")
+
     
 
-    else:
-        print("Invalid Choice")
+  # if role_choice==2:
+    #     print("Verify Your Identity as Staff\n")
+    #     password=int(input("Enter your Password"))
+    #     if password==4242:
+    #          print("Your are in Staff")
+    
