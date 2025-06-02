@@ -111,17 +111,10 @@ python crud/admin_crud.py
 
 ---
 
-## 📸 Visuals & ER Diagrams
-
-![ER Diagram](https://raw.githubusercontent.com/RajeshR005/python-sqlalchemy-college-management/main/assets/er_diagram.gif)
-
----
-
 ## 👨‍💻 Author
 
-**Rajesh R – Python Developer Intern**  
-📧 [rajeshr005@gmail.com](mailto:rajeshr005@gmail.com)  
-🔗 [GitHub](https://github.com/RajeshR005) | [Portfolio](https://rajeshr005.github.io/Healthcare-website/)  
+**Rajesh R – Python Developer**  
+🔗 [GitHub](https://github.com/RajeshR005) 
 
 [![Gmail](https://img.shields.io/badge/Gmail-rajeshr005%40gmail.com-red?logo=gmail&logoColor=white)](mailto:rajeshr005@gmail.com)
 
